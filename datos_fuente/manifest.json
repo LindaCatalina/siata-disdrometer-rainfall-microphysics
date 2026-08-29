@@ -1,0 +1,88 @@
+{
+  "generated_utc": "2026-08-28T00:15:45.037062+00:00",
+  "station": {
+    "id": 417,
+    "name": "Santa Elena Radar - Disdrometro",
+    "latitude": 6.1935,
+    "longitude": -75.5276
+  },
+  "sources": {
+    "siata_metadata": {
+      "url": "https://siata.gov.co/usuarios/jsepulveda/disdrometro/Metadata_Disdros.csv",
+      "relative_path": "datos_fuente/siata/Metadata_Disdros.csv",
+      "bytes": 1223,
+      "sha256": "2222580d456f61bd772345ef142fc8aaeab3a206688b34caafc28fb4334f8996",
+      "last_modified": "Thu, 02 Oct 2025 16:31:19 GMT",
+      "content_type": "text/csv"
+    },
+    "siata_variables": {
+      "url": "https://siata.gov.co/usuarios/jsepulveda/disdrometro/varsDisdroBD_names.xlsx",
+      "relative_path": "datos_fuente/siata/varsDisdroBD_names.xlsx",
+      "bytes": 20227,
+      "sha256": "3acd1d737fa8573627a2ec8babe453d7d3833f40587cdaefdaf11587b130d862",
+      "last_modified": "Thu, 02 Oct 2025 16:38:51 GMT",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    "siata_historico": {
+      "url": "https://siata.gov.co/usuarios/jsepulveda/disdrometro/historico_disdro.tar.gz",
+      "relative_path": "datos_fuente/siata/historico_disdro.tar.gz",
+      "bytes": 1602246060,
+      "sha256": "eb9c8a3b4995118eb48d47e481761fb794b76b6e092a73260d4ad44c38e88490",
+      "last_modified": "Wed, 07 May 2025 21:39:19 GMT",
+      "content_type": "application/x-gzip"
+    },
+    "noaa_omega": {
+      "url": "https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/Monthlies/pressure/omega.mon.mean.nc",
+      "relative_path": "datos_fuente/noaa/omega.mon.mean.nc",
+      "bytes": 226412087,
+      "sha256": "876a042bdaf8e8633865302751665e5f9222399c016fd9f235c94d746935080b",
+      "last_modified": "Mon, 02 Mar 2026 19:01:10 GMT",
+      "content_type": "application/x-netcdf"
+    },
+    "noaa_chi": {
+      "url": "https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/Monthlies/sigma/chi.mon.mean.nc",
+      "relative_path": "datos_fuente/noaa/chi.mon.mean.nc",
+      "bytes": 251082607,
+      "sha256": "ae7e0049864213777da13c189c91682cab24b91b4e6aeaa144b3238019e62622",
+      "last_modified": "Mon, 02 Mar 2026 19:02:19 GMT",
+      "content_type": "application/x-netcdf"
+    }
+  },
+  "extracted_station_files": [
+    {
+      "relative_path": "resultados/Disdrodata_417_2019.csv",
+      "bytes": 54832014,
+      "sha256": "38a7f4822c8a7167c16279603e70740c54193ed5d06407fe17f6466996eedad2"
+    },
+    {
+      "relative_path": "resultados/Disdrodata_417_2020.csv",
+      "bytes": 974561920,
+      "sha256": "eeac3e08a27419f2acdf5670fbe67133b8a42faf4c111e0ef35e3dcf9923bc52"
+    },
+    {
+      "relative_path": "resultados/Disdrodata_417_2021.csv",
+      "bytes": 955235056,
+      "sha256": "c0d4d0ce1cd0a45f694265ab823ecb901c39942fff8d315a11d819f74e64c9a8"
+    },
+    {
+      "relative_path": "resultados/Disdrodata_417_2022.csv",
+      "bytes": 1008012389,
+      "sha256": "b68c8a58209176dbede551d29282406a0740611a8393bd1416e621e712c9f2b8"
+    },
+    {
+      "relative_path": "resultados/Disdrodata_417_2023.csv",
+      "bytes": 1024403825,
+      "sha256": "d17ea3aea823cee0bf9cd4454db5b643d52181dfdbfe08788e79bea362c40c6d"
+    },
+    {
+      "relative_path": "resultados/Disdrodata_417_2024.csv",
+      "bytes": 1020088251,
+      "sha256": "e25f216e90af4de6204575aff8bb1bc2c68ef34f979d6c6ebc38bcacb561bc83"
+    },
+    {
+      "relative_path": "resultados/Disdrodata_417_2025.csv",
+      "bytes": 239353445,
+      "sha256": "2452c82a5e38078bf5648bf577418ca5fd536fb10c57ef11709690680718e15b"
+    }
+  ]
+}

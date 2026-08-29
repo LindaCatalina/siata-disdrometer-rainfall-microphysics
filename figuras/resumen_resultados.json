@@ -1,0 +1,94 @@
+{
+  "station": {
+    "id": 417,
+    "name": "Santa Elena Radar - Disdrometro",
+    "latitude": 6.1935,
+    "longitude": -75.5276
+  },
+  "geographic_box": {
+    "latitude_bounds": [
+      2.3966,
+      8.0147
+    ],
+    "longitude_bounds": [
+      -76.9964,
+      -73.3244
+    ]
+  },
+  "filters": {
+    "precipitation": "var8 > 0",
+    "quality": "var14 > 80.0"
+  },
+  "global_statistics": {
+    "gotas": 167323086,
+    "diam_media": 0.5018278268248053,
+    "diam_mediana": 0.3125,
+    "vel_media": 2.610218310819345,
+    "vel_mediana": 2.4000000000000004
+  },
+  "quality_control": {
+    "filtered_minutes": 344579,
+    "first_timestamp": "2019-12-12T17:23:00",
+    "last_timestamp": "2025-04-24T07:47:00",
+    "instrument_reported_particles": 168492728.0,
+    "spectrum_particles": 167323086.0,
+    "negative_spectrum_cells_removed": 411,
+    "negative_spectrum_magnitude_removed": 410589.0,
+    "by_year": {
+      "2019": {
+        "filtered_minutes": 3549,
+        "spectrum_particles": 2324151.0
+      },
+      "2020": {
+        "filtered_minutes": 68111,
+        "spectrum_particles": 39760196.0
+      },
+      "2021": {
+        "filtered_minutes": 68737,
+        "spectrum_particles": 33584845.0
+      },
+      "2022": {
+        "filtered_minutes": 81654,
+        "spectrum_particles": 36274471.0
+      },
+      "2023": {
+        "filtered_minutes": 51071,
+        "spectrum_particles": 23645020.0
+      },
+      "2024": {
+        "filtered_minutes": 56859,
+        "spectrum_particles": 24585621.0
+      },
+      "2025": {
+        "filtered_minutes": 14598,
+        "spectrum_particles": 7148782.0
+      }
+    },
+    "spectrum_to_instrument_ratio": 0.9930582048621113
+  },
+  "noaa_reanalysis": {
+    "omega": {
+      "file": "datos_fuente/noaa/omega.mon.mean.nc",
+      "selected_level_hpa": 500.0,
+      "units": "Pascal/s",
+      "time_start": "1948-01-01T00:00:00",
+      "time_end": "2026-02-01T00:00:00",
+      "regional_grid": {
+        "latitudes": 3,
+        "longitudes": 1
+      }
+    },
+    "chi": {
+      "file": "datos_fuente/noaa/chi.mon.mean.nc",
+      "selected_sigma_level": 0.210099995136261,
+      "units": "m*m/s",
+      "time_start": "1948-01-01T00:00:00",
+      "time_end": "2026-01-01T00:00:00",
+      "regional_grid": {
+        "latitudes": 3,
+        "longitudes": 2
+      }
+    }
+  },
+  "monthly_correlations_file": "figuras/correlaciones_mensuales.csv"
+}

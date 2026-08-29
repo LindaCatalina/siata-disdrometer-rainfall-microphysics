@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Si utilizas este trabajo, cita el repositorio y reconoce las fuentes SIATA y NOAA PSL."
+title: "Microfísica de precipitación con disdrómetro SIATA y reanálisis NOAA"
+type: software
+authors:
+  - family-names: "Correa Lozano"
+    given-names: "Linda Catalina"
+  - family-names: "Bedoya Carmona"
+    given-names: "Juan Camilo"
+repository-code: "https://github.com/LindaCatalina/siata-disdrometer-rainfall-microphysics"
+url: "https://github.com/LindaCatalina/siata-disdrometer-rainfall-microphysics"
+date-released: "2026-08-28"
+
