@@ -139,15 +139,18 @@ Para ejecutar el cuaderno:
 └── requirements.txt
 ```
 
-## Autoría
+## Autores y contribuciones
 
-Trabajo académico elaborado por **Linda Catalina Correa Lozano** y
-**Juan Camilo Bedoya Carmona**. La preparación reproducible y la documentación
-del repositorio conservan la autoría indicada en el código original.
+Este trabajo fue desarrollado conjuntamente por:
 
-No se ha añadido una licencia abierta de forma unilateral. Si ambas personas
-acuerdan permitir reutilización, se recomienda incorporar posteriormente una
-licencia explícita.
+- *Juan Camilo Bedoya Carmona* — [@CamiloBedoyaC](https://github.com/CamiloBedoyaC)
+- *Linda Catalina Correa Lozano* — [@LindaCatalina](https://github.com/LindaCatalina)
+
+Las responsabilidades específicas de análisis, programación, interpretación,
+documentación y presentación fueron acordadas por ambos autores.
+
+La preparación reproducible del repositorio conserva la autoría indicada en el
+código y en [CITATION.cff](CITATION.cff).
 
 ## Reconocimientos
 
