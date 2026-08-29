@@ -1,0 +1,50 @@
+name: Reproducibilidad
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt
+
+      - name: Preparar cartografía de prueba
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import cartopy
+          from cartopy.io.shapereader import natural_earth
+
+          cartopy.config["data_dir"] = str(
+              Path("datos_fuente/cartopy").resolve()
+          )
+
+          for resolution in ("110m", "10m"):
+              natural_earth(
+                  resolution,
+                  "physical",
+                  "coastline",
+              )
+              natural_earth(
+                  resolution,
+                  "cultural",
+                  "admin_0_boundary_lines_land",
+              )
+          PY
+
+      - name: Ejecutar pruebas sin advertencias
+        run: python -W error -m unittest discover -s tests -v
