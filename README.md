@@ -3,7 +3,7 @@
 ### Análisis reproducible en Python · Santa Elena, Antioquia · 2019–2025
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-7%20passed-2ea44f)
+[![Reproducibilidad](https://github.com/LindaCatalina/siata-disdrometer-rainfall-microphysics/actions/workflows/tests.yml/badge.svg)](https://github.com/LindaCatalina/siata-disdrometer-rainfall-microphysics/actions/workflows/tests.yml)
 ![Reproducible](https://img.shields.io/badge/workflow-reproducible-6f42c1)
 ![Data](https://img.shields.io/badge/data-SIATA%20%7C%20NOAA-0077B5)
 
