@@ -139,7 +139,7 @@ Para ejecutar el cuaderno:
 └── requirements.txt
 ```
 
-## Autores y contribuciones
+## Autores
 
 Este trabajo fue desarrollado conjuntamente por:
 
